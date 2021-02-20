@@ -1,0 +1,181 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.596), rgba(128, 128, 128, 0.348));
+    animation-name: BgColorChanger;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes BgColorChanger {
+    0% {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.596), rgba(128, 128, 128, 0.348));
+    }
+    16% {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.915), rgba(128, 128, 128, 0.348));
+    }
+    32% {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.596), rgba(128, 128, 128, 0.348), rgba(0, 0, 0, 0.915));
+    }
+    48% {
+        background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.348), rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.915));
+    }
+    64% {
+        background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.348), rgba(0, 0, 0, 0.915), );
+    }
+    80% {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.596), rgba(128, 128, 128, 0.348));
+    }
+    96% {
+        background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.348), rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.596));
+    }
+    100% {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.915), rgba(0, 0, 0, 0.596), rgba(128, 128, 128, 0.348));
+    }
+}
+
+
+.main {
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+.aboutMe {
+    width: 100%;
+    height: 100vh;
+    border-radius: 2vh;
+    background-image: url('identity.jpg');
+    color: orangered;
+    font-size: 4vh;
+    align-content: center;
+}
+
+.details {
+    max-height: 100%;
+    width: 30vw;
+    height: 40vh;
+    margin-left: 29vw;
+    margin-right: 30vw;
+    margin-top: 35vh;
+    margin-bottom: 30vh;
+}
+@media (max-width: 450px) {}
+
+.details_paragraph {}
+
+.skills {
+    width: 100%;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    background-image: linear-gradient(to right, red,rgba(233, 32, 32, 0.5), red);
+}
+
+.personal {
+    position: relative;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.technical {
+    position: relative;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+.education {
+    width: 100%;
+    height: 100vh;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    background-image: linear-gradient(to right, blue, rgba(0, 0, 255, 0.329), blue);
+}
+
+.school {
+    position: relative;
+    max-height: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.post_school {
+    position: relative;
+    max-height: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+.work_done {    
+    width: 100%;
+    border-radius: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(0, 88, 0), rgba(0, 88, 0, 0.479), rgb(0, 88, 0));
+}
+
+.educationWorks {
+    position: relative;
+    max-height: 80%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;   
+}
+
+.tech {
+    position: relative;
+    max-height: 80%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.projects {}
+
+
+.contact_address {
+    height: 20vh;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 1.8vw;
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-content: center;
+    background-image: linear-gradient(to right, gold, rgba(255, 217, 0, 0.349), gold);
+}
+
+.contact {}
+
+.address {}
